@@ -6418,3 +6418,12 @@ dialog :link{
     display:none;
   }
 }
+/* Move the scrollbar to the left side */
+#viewerContainer {
+  direction: rtl;
+}
+
+#viewer .page {
+  direction: ltr; /* Make text display normally */
+}
+
