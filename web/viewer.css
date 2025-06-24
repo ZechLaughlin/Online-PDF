@@ -6430,3 +6430,10 @@ dialog :link{
 #editorInk {
   display: none !important;
 }
+
+#editorInk,        /* Draw */
+#editorFreeText,   /* Add Text */
+#editorPhoto       /* Add Photo/Image */
+{
+  display: none !important;
+}
