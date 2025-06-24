@@ -6437,3 +6437,10 @@ dialog :link{
 {
   display: none !important;
 }
+
+#editorPhoto,  /* or #editorStamp depending on your version */
+#editorPhotoButton,
+#editorStamp,
+#editorStampButton {
+  display: none !important;
+}
