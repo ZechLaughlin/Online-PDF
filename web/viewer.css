@@ -6427,3 +6427,6 @@ dialog :link{
   direction: ltr; /* Make text display normally */
 }
 
+#editorInk {
+  display: none !important;
+}
