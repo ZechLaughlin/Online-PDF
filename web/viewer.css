@@ -12,7 +12,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-tools
+
 .messageBar{
   --closing-button-icon:url(images/messageBar_closingButton.svg);
   --message-bar-close-button-color:var(--text-primary-color);
@@ -6448,5 +6448,8 @@ dialog :link{
 #openFile,      /* Open button */
 #print,         /* Print button */
 #download {     /* Save/Download button */
+  display: none !important;
+}
+#toolsButton {
   display: none !important;
 }
