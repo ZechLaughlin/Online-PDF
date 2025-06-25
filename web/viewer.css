@@ -6444,3 +6444,9 @@ dialog :link{
 #editorStampButton {
   display: none !important;
 }
+
+#openFile,      /* Open button */
+#print,         /* Print button */
+#download {     /* Save/Download button */
+  display: none !important;
+}
