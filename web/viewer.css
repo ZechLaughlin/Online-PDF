@@ -6446,10 +6446,11 @@ dialog :link{
 }
 
 #openFile,      /* Open button */
-#print,         /* Print button */
-#download {     /* Save/Download button */
+#print,
+#toolbarContainer,/* Print button */
+#downloadContainer {     /* Save/Download button */
   display: none !important;
 }
-#toolsButton {
+#printContainer {
   display: none !important;
 }
